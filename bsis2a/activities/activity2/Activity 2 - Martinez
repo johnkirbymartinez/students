@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        int firstno;
+        int secondno;
+
+        System.out.print("Enter your first number: ");
+
+        firstno = input.nextInt();
+
+        System.out.print("Enter your second number: ");
+
+        secondno = input.nextInt();
+
+        System.out.print("Results: " + "\n" + "Sum: " + (firstno + secondno) + "\n Product: " + (firstno * secondno) + "\n Difference: "
+         + (firstno - secondno) + "\n Quotient: " + ( firstno / secondno) + "\n Remainder: " + (firstno % secondno));
+
+
+    }
+}
